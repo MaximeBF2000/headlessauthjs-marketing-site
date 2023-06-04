@@ -15,7 +15,7 @@ export default function Home() {
       <main className="px-4 md:px-20 lg:px-32">
         <Navbar />
         <Hero />
-        <div className="text-center mb-64">
+        <div className="text-center mb-32 md:mb-64">
           <StepsDescribed />
           <SocialAuth />
           <MigrateToOwnDatabase />

@@ -8,5 +8,5 @@ interface Props {
 }
 
 export const Description: FC<Props> = ({ children, className }) => {
-  return <p className={cn('text-xl', className)}>{children}</p>
+  return <p className={cn('text-lg md:text-xl', className)}>{children}</p>
 }

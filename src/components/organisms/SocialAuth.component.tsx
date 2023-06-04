@@ -17,7 +17,7 @@ auth.loginWithSocial("google")
 export const SocialAuth = () => {
   return (
     <>
-      <Title className="mt-48 mb-12">
+      <Title className="mt-24 md:mt-48 mb-12">
         Use social login to increase conversion
       </Title>
       <Description className="mb-16">
@@ -25,7 +25,7 @@ export const SocialAuth = () => {
         auth system
       </Description>
       <div className="flex justify-center">
-        <div className="text-left 2xl:w-1/3 text-xl">
+        <div className="text-left 2xl:w-1/3 md:text-xl">
           <CodeBlock>{socialLoginCodeBlockContent}</CodeBlock>
         </div>
       </div>

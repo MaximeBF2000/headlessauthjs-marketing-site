@@ -7,7 +7,7 @@ const sqlCodeBlockContent = `INSERT INTO YOUR_OWN_DATABASE SELECT * FROM HEADLES
 export const MigrateToOwnDatabase = () => {
   return (
     <>
-      <Title className="mt-48">
+      <Title className="mt-24 md:mt-48">
         Migrate to your own SQL Database in a minute
       </Title>
       <Description className="mb-16">
@@ -16,7 +16,7 @@ export const MigrateToOwnDatabase = () => {
         it easy for you to migrate
       </Description>
       <div className="flex justify-center">
-        <div className="text-left text-xl w-full lg:w-fit">
+        <div className="text-left md:text-xl w-full lg:w-fit">
           <CodeBlock language="sql" className="w-full">
             {sqlCodeBlockContent}
           </CodeBlock>

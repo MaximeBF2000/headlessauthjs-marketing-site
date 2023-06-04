@@ -43,7 +43,9 @@ const StepSphere = ({ n, content }) => {
 export const StepsDescribed = () => {
   return (
     <>
-      <Title className="mt-48 mb-12">Implement auth in 5 minutes</Title>
+      <Title className="mt-24 md:mt-48 mb-12">
+        Implement auth in 5 minutes
+      </Title>
       <Description className="mb-24">
         Let us know what your users should look like, and you're basically good
         to go !
