@@ -1,0 +1,5 @@
+export { Hero } from './Hero.component'
+export { StepsDescribed } from './StepsDescribed.component'
+export { SocialAuth } from './SocialAuth.component'
+export { MigrateToOwnDatabase } from './MigrateToOwnDatabase.component'
+export { Footer } from './Footer.component'
