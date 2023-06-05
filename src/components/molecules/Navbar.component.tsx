@@ -1,3 +1,5 @@
+'use client'
+
 import { Logo } from '@components/atoms'
 import { cn } from '@utils/cn'
 import { Bars3Icon } from '@heroicons/react/24/solid'
