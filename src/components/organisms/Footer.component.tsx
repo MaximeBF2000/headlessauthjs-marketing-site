@@ -2,7 +2,10 @@ import { Description, Title } from '../atoms'
 
 export const Footer = () => {
   return (
-    <footer className="relative py-48 px-4 md:px-20 lg:px-32 bg-indigo-600 text-white text-center selection:bg-white/70 selection:text-indigo-600">
+    <footer
+      id="action"
+      className="relative py-48 px-4 md:px-20 lg:px-32 bg-indigo-600 text-white text-center selection:bg-white/70 selection:text-indigo-600"
+    >
       <Title>Ready to start building your product ?</Title>
       <Description className="mb-20">
         HeadlessAuth will be out soon, you can keep in touch with us by putting

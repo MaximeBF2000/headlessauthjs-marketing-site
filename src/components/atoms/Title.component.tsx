@@ -14,7 +14,7 @@ export const Title: FC<Props> = ({ as = 'h2', children, className }) => {
   return (
     <Tag
       className={cn(
-        'text-2xl md:text-3xl lg:text-5xl font-extrabold uppercase leading-normal mb-6',
+        'text-2xl md:text-3xl lg:text-5xl font-extrabold uppercase !leading-snug mb-6',
         className
       )}
     >

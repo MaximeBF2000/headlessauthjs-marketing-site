@@ -26,7 +26,7 @@ export const SocialAuth = () => {
       </Description>
       <div className="flex justify-center">
         <div className="text-left 2xl:w-1/3 md:text-xl">
-          <CodeBlock>{socialLoginCodeBlockContent}</CodeBlock>
+          <CodeBlock language="tsx">{socialLoginCodeBlockContent}</CodeBlock>
         </div>
       </div>
     </>

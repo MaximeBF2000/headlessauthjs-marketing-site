@@ -1,6 +1,5 @@
 'use client'
 
-import { themes } from '@/code-block-themes'
 import { Description, Title } from '../atoms'
 import { CodeBlock } from '../molecules'
 
@@ -40,19 +39,15 @@ export const Hero = () => {
           Spend your time bringing value to your product while we handle user
           management for you.
         </Description>
-        <button className="px-12 py-6 text-white bg-indigo-600 rounded uppercase font-bold">
-          Get started 🚀
-        </button>
-      </div>
-      <div className="w-full lg:w-5/12 border">
-        <CodeBlock
-          language="tsx"
-          showLineNumbers={true}
-          theme={themes.monokaiSublime}
-          wrapLines={true}
+        <a
+          href="#action"
+          className="px-12 py-6 text-white bg-indigo-600 rounded uppercase font-bold"
         >
-          {codeBlockContent}
-        </CodeBlock>
+          Get started 🚀
+        </a>
+      </div>
+      <div className="w-full lg:w-5/12">
+        <CodeBlock language="tsx">{codeBlockContent}</CodeBlock>
       </div>
     </div>
   )

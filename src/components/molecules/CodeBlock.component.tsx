@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { CodeBlock as CodeBlockBase } from 'react-code-blocks'
-import { themes } from '@/code-block-themes'
+import { themes } from '@/utils/code-block-themes'
 
 export const CodeBlock = ({
   children,
@@ -13,14 +13,19 @@ export const CodeBlock = ({
   className = ''
 }) => {
   return (
-    <CodeBlockBase
-      text={children}
-      language={language}
-      showLineNumbers={showLineNumbers}
-      theme={theme}
-      wrapLines={wrapLines}
-      codeBlock
-      className={className}
-    />
+    <div
+      className="p-2 rounded-lg"
+      style={{ backgroundColor: theme.backgroundColor }}
+    >
+      <CodeBlockBase
+        text={children}
+        language={language}
+        showLineNumbers={showLineNumbers}
+        theme={theme}
+        wrapLines={wrapLines}
+        codeBlock
+        className={className}
+      />
+    </div>
   )
 }

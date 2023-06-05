@@ -1,9 +1,9 @@
 'use client'
 
-import { CodeBlock } from 'react-code-blocks'
-import { themes } from '@/code-block-themes'
-import { map } from 'lodash'
 import { ChangeEvent, useState } from 'react'
+import { map } from 'lodash'
+import { CodeBlock } from 'react-code-blocks'
+import { themes } from '@/utils/code-block-themes'
 
 const codeBlockContent = `import Auth from 'headless-auth'
 
